@@ -7,8 +7,9 @@ import os
 # Ensure output directory exists
 os.makedirs("result", exist_ok=True)
 
-# Load CSV file (space-separated with no headers)
-data = pd.read_csv("data/data_chol_dias_pressure.csv", sep=",", header=None)
+
+# Load dataset without headers
+data = pd.read_csv("data/data_chol_dias_pressure.csv", header=None)
 data.columns = ["cholesterol", "diastolic_bp"]
 
 # Prepare input and target
