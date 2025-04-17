@@ -14,6 +14,9 @@ A simple project that uses gradient descent to fit a linear regression model to 
 - `data/`: Contains sample dataset
 - `result/`: Contains output visualizations
 
+## Live Demo
+A web-based interface using Streamlit is under development. Stay tuned!
+
 ## Result
 <p align="center">
   <img src="result/convergence_plot.png" width="500" alt="Convergence Plot">
