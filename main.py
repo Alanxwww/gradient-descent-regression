@@ -8,7 +8,7 @@ import os
 os.makedirs("result", exist_ok=True)
 
 # Load dataset without headers
-data = pd.read_csv("data/cholesterol_bp.csv", header=None)
+data = pd.read_csv("data/data_chol_dias_pressure.csv", header=None)
 data.columns = ["cholesterol", "diastolic_bp"]
 
 # Prepare input and target
