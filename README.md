@@ -18,6 +18,5 @@ A simple project that uses gradient descent to fit a linear regression model to 
 ![Convergence Plot](result/convergence_plot.png)
 
 ## Requirements
-```bash
 pip install -r requirements.txt
 
